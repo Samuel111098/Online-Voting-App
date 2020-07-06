@@ -1,0 +1,65 @@
+.container-fluid {
+	background-image: url("../assets/black-and-red-typewriter-on-white-table-3695297.jpg");
+	background-size: cover;
+}
+.row {
+	margin-top: 2%;
+	padding: 10% 0%;
+}
+.container h1,
+.container p {
+	color: whitesmoke;
+}
+.container h1 {
+	font-size: 3em;
+	margin: 20% 0% 2% 0%;
+	font-weight: 700;
+}
+.container p {
+	margin: 4% 0% 1% 0%;
+	font-size: 2em;
+	font-weight: 300;
+}
+.nav-link {
+	font-size: 1.5em;
+	color: rgb(56, 56, 56);
+}
+.container .btn {
+	padding: 1%;
+	border-radius: 10px;
+}
+#container {
+	margin: 6% 0% 2% 0%;
+	padding: 2%;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+}
+#container h2 {
+	text-align: center;
+	font-size: 2em;
+}
+#container section {
+	border-radius: 10px;
+	padding: 4%;
+}
+.element label {
+	display: block;
+	margin: 2% auto;
+	padding: 2%;
+}
+.element input {
+	width: 100%;
+	color: #ddd 1px solid;
+	border-radius: 10px;
+	padding: 2%;
+}
+#login {
+	margin: 5% 0% 5% 35%;
+	padding: 2%;
+}
+#register {
+	float: right;
+	margin-right: 4%;
+	margin-top: -4%;
+}
