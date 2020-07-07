@@ -1,0 +1,13 @@
+form {
+	margin: 1% 10%;
+	padding: 5%;
+}
+input {
+	display: flex;
+	float: left;
+	width: 80%;
+	font-size: 1.3em;
+}
+button {
+	margin-left: 5%;
+}

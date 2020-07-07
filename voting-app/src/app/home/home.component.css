@@ -1,0 +1,51 @@
+.row {
+	margin-top: 2%;
+	padding: 5% 0%;
+}
+h3,
+.container h1,
+.container p {
+	color: whitesmoke;
+}
+.container h1 {
+	font-size: 3em;
+	margin: 20% 0% 2% 0%;
+	font-weight: 700;
+}
+.container p {
+	margin: 4% 0% 1% 0%;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.container .btn {
+	padding: 1%;
+	border-radius: 10px;
+}
+#container {
+	margin: 6% 0% 10% 0%;
+	padding: 2%;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+}
+#container h2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+#container section {
+	border-radius: 10px;
+	padding: 4%;
+}
+
+.element input {
+	width: 100%;
+	color: #ddd 1px solid;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 5% 0%;
+}
+#login {
+	margin: 10% 0% 5% 30%;
+	padding: 2%;
+}

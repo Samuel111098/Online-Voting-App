@@ -1,0 +1,40 @@
+#container {
+	margin: 5% auto;
+	padding: 5%;
+	max-width: 45%;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+}
+#container header {
+	text-align: center;
+	margin-bottom: 2%;
+}
+#container section {
+	border-radius: 5px;
+	padding: 2%;
+}
+.element label {
+	display: block;
+	margin: 1% auto;
+	padding: 1%;
+	font-size: 1.2em;
+}
+.element input {
+	width: 100%;
+	color: #ddd 1px solid;
+	border-radius: 5px;
+	padding: 1%;
+	font-size: 1.2em;
+}
+section .btn {
+	margin: 5%;
+	margin-left: 40%;
+}
+#forgot {
+	margin-left: 35%;
+	color: whitesmoke;
+}
+#forgot:hover {
+	color: rgb(194, 194, 194);
+}
