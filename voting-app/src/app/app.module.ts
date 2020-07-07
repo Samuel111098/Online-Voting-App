@@ -8,6 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { SearchComponent } from './search/search.component';
 import { PostcardComponent } from './postcard/postcard.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { CreateComponent } from './create/create.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
 	declarations: [
@@ -16,9 +20,11 @@ import { PostcardComponent } from './postcard/postcard.component';
 		HomeComponent,
 		LoginComponent,
 		SearchComponent,
-		PostcardComponent
+		PostcardComponent,
+		AdmindashboardComponent,
+		CreateComponent
 	],
-	imports: [ BrowserModule, AppRoutingModule ],
+	imports: [ BrowserModule, AppRoutingModule, HttpClientModule, ReactiveFormsModule ],
 	providers: [],
 	bootstrap: [ AppComponent ]
 })

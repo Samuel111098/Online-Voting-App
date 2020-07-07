@@ -1,5 +1,77 @@
 {
-	"posts": [ { "id": 1, "title": "json-server", "author": "typicode" } ],
-	"comments": [ { "id": 1, "body": "some comment", "postId": 1 } ],
-	"profile": { "name": "typicode" }
+	"posts": [
+		{
+			"id": 1,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"id": 2,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"id": 3,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"id": 4,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"title": "US",
+			"author": "Jack",
+			"statement": "New post",
+			"date": "02-11-2008",
+			"category": "general",
+			"id": 5,
+			"votecount": 0
+		},
+		{
+			"title": "Corona",
+			"author": "Vid",
+			"statement": "It's at 7L",
+			"date": "09-03-2017",
+			"category": "science",
+			"votecount": 0,
+			"id": 6
+		},
+		{
+			"title": "Tis is Cris",
+			"author": "Kevin",
+			"statement": "It's too early",
+			"date": "03-10-1999",
+			"category": "medicine",
+			"votecount": 0,
+			"id": 7
+		}
+	],
+	"users": [
+		{
+			"email": "admin123@gmail.com",
+			"password": "admin123"
+		},
+		{
+			"email": "samuelravella11@gmail.com",
+			"password": "sammy123"
+		}
+	]
 }

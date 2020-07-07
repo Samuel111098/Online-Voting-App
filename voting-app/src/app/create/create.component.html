@@ -1,0 +1,39 @@
+<div class="container">
+    <header>
+        <h1>CREATE POST</h1>
+    </header>
+<form [formGroup]="createPost" (ngSubmit)="addPost()" >
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" placeholder="Enter Title" formControlName="title" >
+      </div>
+      <div class="form-group col-md-6">
+        <label for="author">Author</label>
+        <input type="text" class="form-control" placeholder="Enter Author" formControlName="author">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="statement">Statement</label>
+      <textarea rows="3"  class="form-control" formControlName="statement"> Enter here.</textarea>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="date">Date</label>
+        <input type="datetime" class="form-control" formControlName="date">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="category">Category</label>
+        <select formControlName="category" class="form-control">
+          <option selected>Choose...</option>
+          <option>general</option>
+          <option>history</option>
+          <option>science</option>
+          <option>medicine</option>
+          <option>politics</option>
+        </select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-lg btn-secondary">Create post</button>
+  </form>
+</div>
