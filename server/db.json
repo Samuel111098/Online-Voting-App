@@ -1,95 +1,95 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Hello",
-      "author": "sam",
-      "category": "general",
-      "date": "05-05-2017 23:17:04",
-      "statement": "This is my first post",
-      "votecount": 0
-    },
-    {
-      "id": 2,
-      "title": "Hello",
-      "author": "sam",
-      "category": "general",
-      "date": "05-05-2017 23:17:04",
-      "statement": "This is my first post",
-      "votecount": 0
-    },
-    {
-      "id": 3,
-      "title": "Hello",
-      "author": "sam",
-      "category": "general",
-      "date": "05-05-2017 23:17:04",
-      "statement": "This is my first post",
-      "votecount": 0
-    },
-    {
-      "id": 4,
-      "title": "Hello",
-      "author": "sam",
-      "category": "general",
-      "date": "05-05-2017 23:17:04",
-      "statement": "This is my first post",
-      "votecount": 0
-    },
-    {
-      "title": "US",
-      "author": "Jack",
-      "statement": "New post",
-      "date": "02-11-2008",
-      "category": "general",
-      "id": 5,
-      "votecount": 0
-    },
-    {
-      "title": "Corona",
-      "author": "Vid",
-      "statement": "It's at 7L",
-      "date": "09-03-2017",
-      "category": "science",
-      "votecount": 0,
-      "id": 6
-    },
-    {
-      "title": "Tis is Cris",
-      "author": "Kevin",
-      "statement": "It's too early",
-      "date": "03-10-1999",
-      "category": "medicine",
-      "votecount": 0,
-      "id": 7
-    },
-    {
-      "title": "New year",
-      "author": "Smith",
-      "statement": "New year celebrations underway",
-      "date": "01-01-2020",
-      "category": "general",
-      "votecount": 0,
-      "id": 8
-    },
-    {
-      "title": "Avengers",
-      "author": "Nick",
-      "statement": "Assemble",
-      "date": "02-06-2015",
-      "category": "general",
-      "votecount": 0,
-      "id": 9
-    }
-  ],
-  "users": [
-    {
-      "email": "admin123@gmail.com",
-      "password": "admin123"
-    },
-    {
-      "email": "samuelravella11@gmail.com",
-      "password": "sammy123"
-    }
-  ]
+	"posts": [
+		{
+			"id": 1,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"id": 2,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"id": 3,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"id": 4,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"title": "US",
+			"author": "Jack",
+			"statement": "New post",
+			"date": "02-11-2008",
+			"category": "general",
+			"id": 5,
+			"votecount": 0
+		},
+		{
+			"title": "Corona",
+			"author": "Vid",
+			"statement": "It's at 7L",
+			"date": "09-03-2017",
+			"category": "science",
+			"votecount": 0,
+			"id": 6
+		},
+		{
+			"id": 7,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"id": 8,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		},
+		{
+			"id": 9,
+			"title": "Hello",
+			"author": "sam",
+			"category": "general",
+			"date": "05-05-2017 23:17:04",
+			"statement": "This is my first post",
+			"votecount": 0
+		}
+	],
+	"users": [
+		{
+			"email": "admin123@gmail.com",
+			"password": "admin123"
+		},
+		{
+			"email": "samuelravella11@gmail.com",
+			"password": "sammy123"
+		}
+	]
 }

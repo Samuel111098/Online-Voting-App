@@ -13,4 +13,10 @@ export class CommonService {
 	addPost(data) {
 		return this._http.post(this.URL, data);
 	}
+	getData(id) {
+		return this._http.get(`${this.URL}/${id}`);
+	}
+	putData(id, data) {
+		return this._http.put(`${this.URL}/${id}`, data);
+	}
 }
