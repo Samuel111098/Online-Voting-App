@@ -8,6 +8,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 	styleUrls: [ './create.component.css' ]
 })
 export class CreateComponent implements OnInit {
+	alert: boolean = false;
 	createPost = new FormGroup({
 		title: new FormControl(''),
 		author: new FormControl(''),
@@ -22,7 +23,12 @@ export class CreateComponent implements OnInit {
 	addPost() {
 		//console.log(this.createPost.value);
 		this.posts.addPost(this.createPost.value).subscribe((result) => {
-			console.log('Data recieved!', result);
+			this.alert = true;
+			this.createPost.reset({});
+			//console.log('Data recieved!', result);
 		});
+	}
+	closeAlert() {
+		this.alert = false;
 	}
 }
