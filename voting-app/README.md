@@ -26,4 +26,26 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-*************************************************
+********************************************************
+
+This is the assignment I was handed for the Second round of the interview process for Platform Commons Foundation. 
+The website enables either user or admin to login to their dashboard or wall which hold the posts created by the admin. 
+The user can vote on his favourite posts and also view the number of responses for each post. 
+
+Tech stack : {
+    Angular 9
+    TypeScript
+    bootstrap
+}
+
+Npm modules : {
+    json-serverModule(to simulate a fake server for API calls)
+    HttpClientModule
+    ReactiveFormsModule
+    FormsModule
+    NgxPaginationModule
+}
+
+Service : {
+    Common Service(to fetch and post data through api)
+}

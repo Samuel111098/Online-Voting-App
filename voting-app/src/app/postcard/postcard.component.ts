@@ -9,6 +9,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 	styleUrls: [ './postcard.component.css' ]
 })
 export class PostcardComponent implements OnInit {
+	public p: number = 1;
 	public collection: any;
 	public collect: any;
 	public count: any;
