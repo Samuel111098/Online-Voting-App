@@ -33,17 +33,17 @@ The website enables either user or admin to login to their dashboard or wall whi
 The user can vote on his favourite posts and also view the number of responses for each post. 
 
 Tech stack : {
-    Angular 9
-    TypeScript
-    bootstrap
+    Angular 9,
+    TypeScript,
+    bootstrap,
 }
 
 Npm modules : {
-    json-serverModule(to simulate a fake server for API calls)
-    HttpClientModule
-    ReactiveFormsModule
-    FormsModule
-    NgxPaginationModule
+    json-serverModule(to simulate a fake server for API calls),
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
+    NgxPaginationModule,
 }
 
 Service : {
