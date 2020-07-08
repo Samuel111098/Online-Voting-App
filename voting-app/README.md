@@ -28,6 +28,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ********************************************************
 
+To Run App: 
+Open terminal and use ng serve -o 
+
+To Run JSON server: 
+Open new terminal and use json-server --watch db.json
+
+To login as adimin:
+email: admin123@gmail.com
+password: admin123
+
+To login as user: 
+email: user123@gmail.com
+password: user123
+
+*********************************************************
 This is the assignment I was handed for the Second round of the interview process for Platform Commons Foundation. 
 The website enables either user or admin to login to their dashboard or wall which hold the posts created by the admin. 
 The user can vote on his favourite posts and also view the number of responses for each post. 
