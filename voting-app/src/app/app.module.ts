@@ -11,7 +11,8 @@ import { PostcardComponent } from './postcard/postcard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 import { CreateComponent } from './create/create.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
 	declarations: [
@@ -24,7 +25,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 		AdmindashboardComponent,
 		CreateComponent
 	],
-	imports: [ BrowserModule, AppRoutingModule, HttpClientModule, ReactiveFormsModule ],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		HttpClientModule,
+		ReactiveFormsModule,
+		FormsModule,
+		NgxPaginationModule
+	],
 	providers: [],
 	bootstrap: [ AppComponent ]
 })

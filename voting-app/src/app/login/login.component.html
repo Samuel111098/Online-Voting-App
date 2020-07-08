@@ -6,13 +6,13 @@
         <section>
             <div class="element">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter Email">
+                <input type="email" name="email" placeholder="Enter Email" [(ngModel)]="email">
             </div>
             <div class="element">
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Enter Password">
+                <input type="password" name="password" placeholder="Enter Password" [(ngModel)]="password">
             </div>
-            <a class="btn btn-lg btn-secondary">Login</a>
+            <a class="btn btn-lg btn-secondary" (click)="loginUser()">Login</a>
         </section>
         <a href="#" id="forgot">Forgot Password?</a>
     </form>

@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class CommonService {
 	URL = 'http://localhost:3000/posts';
+	userURL = 'http://localhost:3000/users';
 	constructor(private _http: HttpClient) {}
 	getPosts() {
 		return this._http.get(this.URL);

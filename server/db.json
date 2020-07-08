@@ -1,95 +1,122 @@
 {
-	"posts": [
-		{
-			"id": 1,
-			"title": "Hello",
-			"author": "sam",
-			"category": "general",
-			"date": "05-05-2017 23:17:04",
-			"statement": "This is my first post",
-			"votecount": 0
-		},
-		{
-			"id": 2,
-			"title": "Hello",
-			"author": "sam",
-			"category": "general",
-			"date": "05-05-2017 23:17:04",
-			"statement": "This is my first post",
-			"votecount": 0
-		},
-		{
-			"id": 3,
-			"title": "Hello",
-			"author": "sam",
-			"category": "general",
-			"date": "05-05-2017 23:17:04",
-			"statement": "This is my first post",
-			"votecount": 0
-		},
-		{
-			"id": 4,
-			"title": "Hello",
-			"author": "sam",
-			"category": "general",
-			"date": "05-05-2017 23:17:04",
-			"statement": "This is my first post",
-			"votecount": 0
-		},
-		{
-			"title": "US",
-			"author": "Jack",
-			"statement": "New post",
-			"date": "02-11-2008",
-			"category": "general",
-			"id": 5,
-			"votecount": 0
-		},
-		{
-			"title": "Corona",
-			"author": "Vid",
-			"statement": "It's at 7L",
-			"date": "09-03-2017",
-			"category": "science",
-			"votecount": 0,
-			"id": 6
-		},
-		{
-			"id": 7,
-			"title": "Hello",
-			"author": "sam",
-			"category": "general",
-			"date": "05-05-2017 23:17:04",
-			"statement": "This is my first post",
-			"votecount": 0
-		},
-		{
-			"id": 8,
-			"title": "Hello",
-			"author": "sam",
-			"category": "general",
-			"date": "05-05-2017 23:17:04",
-			"statement": "This is my first post",
-			"votecount": 0
-		},
-		{
-			"id": 9,
-			"title": "Hello",
-			"author": "sam",
-			"category": "general",
-			"date": "05-05-2017 23:17:04",
-			"statement": "This is my first post",
-			"votecount": 0
-		}
-	],
-	"users": [
-		{
-			"email": "admin123@gmail.com",
-			"password": "admin123"
-		},
-		{
-			"email": "samuelravella11@gmail.com",
-			"password": "sammy123"
-		}
-	]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": -1
+    },
+    {
+      "id": 2,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": 3
+    },
+    {
+      "id": 3,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": 2
+    },
+    {
+      "id": 4,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": 5
+    },
+    {
+      "id": 5,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": -4
+    },
+    {
+      "id": 6,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": -3
+    },
+    {
+      "id": 7,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": 6
+    },
+    {
+      "id": 8,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": -1
+    },
+    {
+      "id": 9,
+      "title": "Hello",
+      "author": "sam",
+      "category": "general",
+      "date": "05-05-2017 23:17:04",
+      "statement": "This is my first post",
+      "votecount": 2
+    },
+    {
+      "title": "Lord of the rings",
+      "author": "R.R",
+      "statement": "It's a fantastic movie!",
+      "date": "2020-07-16",
+      "category": "general",
+      "votecount": 0,
+      "id": 10
+    },
+    {
+      "title": "Blades",
+      "author": "Kenway",
+      "statement": "Assasins Creed",
+      "date": "2020-07-05",
+      "category": "general",
+      "votecount": 0,
+      "id": 11
+    },
+    {
+      "title": "sam",
+      "author": "yo",
+      "statement": "This is one!",
+      "date": "2020-07-21",
+      "category": "history",
+      "votecount": 0,
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "email": "admin123@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "email": "user123@gmail.com",
+      "password": "user123"
+    }
+  ]
 }

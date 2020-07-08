@@ -1,4 +1,4 @@
-<div *ngFor="let post of collection"class="card mb-3">
+<div *ngFor="let post of collection | paginate:{itemsPerPage:1, currentPage:p} "class="card mb-3">
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src= "../../assets/black-and-red-typewriter-on-white-table-3695297.jpg" class="card-img" alt="...">
@@ -17,8 +17,14 @@
       <div class="col-md-4 my-auto">
         <a routerLink="/dashboard/{{post.id}}" (click)="performActionUp()"><i class="fa fa-thumbs-up"></i> &nbsp; &nbsp;</a>
         <a routerLink="/dashboard/{{post.id}}" (click)="performActionDown()"><i class="fa fa-thumbs-down"></i></a>
+        <div class="container">
+        <h1 class="text-lg-center mt-3">{{post.votecount}}</h1>
+      </div>
       </div>
       </div>
     </div>
     </div>
   </div>
+  <div class="page">
+   <pagination-controls class="paginate" (pageChange)="p=$event"></pagination-controls> 
+</div>
